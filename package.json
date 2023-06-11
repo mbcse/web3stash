@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/theblockchainchief/web3stash.git"
+    "url": "git+https://github.com/mbcse/web3stash.git"
   },
   "keywords": [
     "blockchain",
@@ -34,9 +34,9 @@
   "author": "Mohit Bhat",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/theblockchainchief/web3stash/issues"
+    "url": "https://github.com/mbcse/web3stash/issues"
   },
-  "homepage": "https://theblockchainchief.gitbook.io/web3stash/",
+  "homepage": "https://mbcse.gitbook.io/web3stash/",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
