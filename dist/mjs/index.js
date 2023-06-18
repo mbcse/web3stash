@@ -5,6 +5,7 @@ import { Web3StorageService } from './services/web3storage.js';
 import { ArweaveService } from './services/arweave.js';
 import { IpfsService } from './services/ipfs-http-client.js';
 import { LighthouseStorageService } from './services/lighthouse.js';
+import { HeliaStorageService } from './services/helia-client.js';
 // eslint-disable-next-line @typescript-eslint/naming-convention, complexity
 export function Web3Stash(service, config, configOptions) {
     switch (service) {
@@ -56,6 +57,8 @@ export function Web3Stash(service, config, configOptions) {
                 return new LighthouseStorageService(config.lighthouseApiKey, configOptions);
             }
             throw new Error('Please provide Lighthouse Api Key');
+        case 'HELIA':
+            return new HeliaStorageService(configOptions);
         default: throw new Error('Unknown Service Type');
     }
 }
