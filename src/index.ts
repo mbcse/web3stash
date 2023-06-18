@@ -5,6 +5,7 @@ import {Web3StorageService} from './services/web3storage.js';
 import {ArweaveService} from './services/arweave.js';
 import {IpfsService} from './services/ipfs-http-client.js';
 import {LighthouseStorageService} from './services/lighthouse.js';
+import {HeliaStorageService} from './services/helia-client.js';
 import type {Web3StashServices, Web3StashConfig} from './types';
 import type {StorageService} from './services/base-storage.js';
 
@@ -67,6 +68,9 @@ export function Web3Stash(service: Web3StashServices, config: Web3StashConfig, c
 			}
 
 			throw new Error('Please provide Lighthouse Api Key');
+		case 'HELIA':
+				return new HeliaStorageService(configOptions);
+	
 		default: throw new Error('Unknown Service Type');
 	}
 }
