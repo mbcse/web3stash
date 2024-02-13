@@ -36,7 +36,7 @@
   "bugs": {
     "url": "https://github.com/mbcse/web3stash/issues"
   },
-  "homepage": "https://mbcse.gitbook.io/web3stash/",
+  "homepage": "https://theblockchainchief.gitbook.io/web3stash/",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
@@ -48,11 +48,15 @@
   },
   "dependencies": {
     "@bundlr-network/client": "^0.8.5",
+    "@helia/json": "^1.0.0",
+    "@helia/strings": "^1.0.0",
+    "@helia/unixfs": "^1.3.0",
     "@lighthouse-web3/sdk": "^0.1.6",
     "@pinata/sdk": "^1.1.26",
     "@types/mime-types": "^2.1.1",
     "arweave": "^1.11.6",
     "arweave-stream-tx": "^1.1.0",
+    "helia": "^1.3.2",
     "ipfs-http-client": "^56.0.2",
     "mime-types": "^2.1.35",
     "nft.storage": "^7.0.0",

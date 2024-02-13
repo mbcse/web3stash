@@ -4,7 +4,7 @@ export declare type UploadOutput = {
     id: string;
     metadata: Record<string, unknown>;
 };
-export declare type Web3StashServices = 'IPFS-CLIENT' | 'INFURA' | 'PINATA' | 'BUNDLR' | 'NFT.STORAGE' | 'WEB3.STORAGE' | 'ARWEAVE' | 'LIGHTHOUSE';
+export declare type Web3StashServices = 'IPFS-CLIENT' | 'INFURA' | 'PINATA' | 'BUNDLR' | 'NFT.STORAGE' | 'WEB3.STORAGE' | 'ARWEAVE' | 'LIGHTHOUSE' | 'HELIA';
 export declare type PinataServiceConfig = {
     apiKey: string;
     apiSecret: string;
@@ -33,4 +33,5 @@ export declare type InfuraServiceConfig = {
 export declare type LighthouseServiceConfig = {
     lighthouseApiKey: string;
 };
-export declare type Web3StashConfig = BundlrServiceConfig | LighthouseServiceConfig | PinataServiceConfig | ArweaveServiceConfig | NftStorageServiceConfig | Web3StorageServiceConfig | IpfsServiceConfig | InfuraServiceConfig;
+export declare type HeliaServiceConfig = {};
+export declare type Web3StashConfig = BundlrServiceConfig | LighthouseServiceConfig | PinataServiceConfig | ArweaveServiceConfig | NftStorageServiceConfig | Web3StorageServiceConfig | IpfsServiceConfig | InfuraServiceConfig | HeliaServiceConfig;

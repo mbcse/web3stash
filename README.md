@@ -1,5 +1,5 @@
 # Web3Stash
-Web3Stash is a standard library to get a single api to connect to multiple decentralised storage service providers. If you are looking to connect to blockchain services like ipfs, pinata, nft.storage, arweave, bundlr, etc but don't want to read there docs and set them up individually, You can use this package to connect to any of these services. The best part is all the configuration settings and upload functions are almost same across all the services.
+Web3Stash is a standard library to get a single api to connect to multiple decentralised storage service providers. If you are looking to connect to blockchain services like ipfs, pinata, nft.storage, arweave, bundlr, helia etc but don't want to read there docs and set them up individually, You can use this package to connect to any of these services. The best part is all the configuration settings and upload functions are almost same across all the services.
 
 # Quick Start
 
