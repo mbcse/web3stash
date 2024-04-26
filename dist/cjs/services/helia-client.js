@@ -1,4 +1,4 @@
-"use strict";
+    "use strict";
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -13,9 +13,9 @@ exports.HeliaStorageService = void 0;
 /* eslint-disable @typescript-eslint/no-unsafe-call */
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 const base_storage_js_1 = require("./base-storage.js");
-const helia_1 = require("helia");
-const json_1 = require("@helia/json");
-const unixfs_1 = require("@helia/unixfs");
+const helia_1 = import("helia");
+const json_1 = import("@helia/json");
+const unixfs_1 = import("@helia/unixfs");
 const fs_1 = require("fs");
 class HeliaStorageService extends base_storage_js_1.StorageService {
     constructor(config) {
